@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+        rel="stylesheet">
+    <link rel="sortcut icon" href="../img/calculator.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <title>AFA Calcs</title>
+</head>
+
+<body>
+    <header>
+        <img src="../img/Logo/logoafa.png" alt="Logo AFA">
+    </header>
+    <nav>
+        <div class="navegation tests">
+            <ul>
+                <li id="home"><a href="../index.html">Home</a></li>
+                <li><a href="../Contato/index.html">Contato</a></li>
+                <li><a href="../Canais/index.html">Canais</a></li>
+                <li><a href="../Links/index.html">Links</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="tests">
+        <div>
+            <div class="spacing">
+                <label for="portugues">Português</label>
+                <input placeholder="Português" type="number" min="0" max="16" name="portugues"
+                    onchange="atualizarNotaAfa('portugues', value)">
+            </div>
+            <div class="spacing">
+                <label for="matematica">Matemática</label>
+                <input placeholder="Matemática" type="number" name="matematica" min="0" max="16"
+                    onchange="atualizarNotaAfa('matematica', value)">
+            </div>
+            <div class="spacing">
+                <label for="fisica">Física</label>
+                <input placeholder="Física" type="number" min="0" max="16" name="fisica"
+                    onchange="atualizarNotaAfa('fisica', value)">
+            </div>
+            <div class="spacing">
+                <label for="ingles">Inglês</label>
+                <input placeholder="Inglês" type="number" min="0" max="16" name="ingles"
+                    onchange="atualizarNotaAfa('ingles', value)">
+            </div>
+            <div class="spacing">
+                <label for="redacao">Redação</label>
+                <input placeholder="Redação" type="number" name="redacao" min="0" max="100"
+                    onchange="atualizarNotaAfa('redacao', value)">
+            </div>
+        </div>
+    </main>
+    <section class="result">
+        <div class="in_middle box tests">
+            <h4 id="mediaAfa">Resultado</h4>
+    </section>
+    <script src="./script.js"></script>
+</body>
+
+</html>

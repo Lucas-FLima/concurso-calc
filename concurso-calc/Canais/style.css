@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Open-Sans, Roboto, Montserrat;
+}
+
+header {
+    max-width: 100%;
+    background-color: #343333;
+    height: 80px;
+    align-items: center;
+}
+
+.concursos {
+    height: 80px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.militares {
+    width: 60px;
+}
+
+#espcex {
+    margin-left: 0px;
+}
+
+.concursos li {
+    vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+    margin-left: 249px;
+}
+
+.back_theme {
+    max-width: 100%;
+    background-color: #AEAEAE;
+    height: 55.66px;
+}
+
+.logo {
+    max-width: 1000px;
+    height: 55.66px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logo img {
+    width: 55px;
+}
+
+.logo h1 {
+    padding: 10px 0px;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav {
+    max-width: 100%;
+    background-color: #D1CECE;
+}
+
+.navegation {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+}
+
+.navegation li {
+    vertical-align: middle;
+    padding: 12px 0px;
+    display: inline-block;
+    list-style: none;
+    margin-left: 250.7px;
+}
+
+#home {
+    margin-left: 0px;
+}
+
+.navegation a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navegation a:hover {
+    color: #ffff;
+}
+
+.title {
+    text-align: center;
+    margin: 40px auto 0px;
+}
+
+.title h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.corpo {
+    max-width: 100%;
+    text-align: center;
+}
+
+.separar {
+    margin-top: 80px;
+}
+
+label {
+    display: block;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.box_red {
+    display: inline-block;
+    margin: 35px auto 0px;
+    height: 80px;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.8);
+    width: 960px;
+}
+
+.first_img {
+    float: left;
+    height: 80px;
+}
+
+.others_img {
+    float: left;
+    height: 80px;
+    margin-left: 30px;
+}
+
+.caracturas {
+    border-radius: 50px;
+    width: 80px;
+}
+
+.espace {
+    margin-left: 30px;
+}

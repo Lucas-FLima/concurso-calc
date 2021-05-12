@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilizado para padronizar tudo de uma forma mais simplória */
+
+.tests {
+    font-family: Open-Sans, Roboto, Montserrat;
+}
+
+header {
+    background-image: url(../img/fundoafa.png);
+    background-repeat: repeat-y;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    background-color: #343333;
+    height: 80px;
+}
+
+header img {
+    padding: 4.61px 0px 0px;
+    width: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    max-width: 100%;
+    background-color: #D1CECE;
+}
+
+.navegation {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+}
+
+.navegation li {
+    padding: 12px 0px;
+    display: inline-block;
+    list-style: none;
+    margin-left: 250.7px;
+}
+
+#home {
+    margin-left: 0px;
+}
+
+.navegation a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navegation a:hover {
+    color: #ffff;
+}
+
+main {
+    margin-top: 47px;
+    text-align: center;
+}
+
+.spacing {
+    margin-bottom: 81.5px;
+}
+
+main label {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+main input {
+    outline: none;
+    text-align: center;
+    width: 10%;
+    margin: 11.5px auto 0px;
+    padding: 10px;
+    border: 2px solid #374133;
+    border-radius: 20%;
+    margin-bottom: 10px;
+    border-radius: 50px;
+}
+
+main ::placeholder {
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.result {
+    text-align: center;
+    width: 100%;
+    margin: 16.5px 0px 20px;
+}
+
+.box {
+    border: 2px solid #374133;
+    border-radius: 20px;
+    width: 10%;
+}
+
+.in_middle {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h4 {
+    color: #000;
+}

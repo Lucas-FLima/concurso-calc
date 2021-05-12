@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tests {
+    font-family: Open-Sans, Roboto, Montserrat;
+}
+
+header {
+    max-width: 100%;
+    background-color: #343333;
+    height: 80px;
+    align-items: center;
+}
+
+.concursos {
+    height: 80px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.militares {
+    width: 60px;
+}
+
+#espcex {
+    margin-left: 0px;
+}
+
+.concursos li {
+    vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+    margin-left: 249px;
+}
+
+.back_theme {
+    max-width: 100%;
+    background-color: #AEAEAE;
+    height: 55.66px;
+}
+
+.logo {
+    max-width: 1000px;
+    height: 55.66px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logo img {
+    width: 55px;
+}
+
+.logo h1 {
+    padding: 10px 0px;
+    overflow: hidden;
+    display: inline-block;
+    font-size: 30px;
+}
+
+nav {
+    max-width: 100%;
+    background-color: #D1CECE;
+}
+
+.navegation {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+}
+
+.navegation li {
+    vertical-align: middle;
+    padding: 12px 0px;
+    display: inline-block;
+    list-style: none;
+    margin-left: 250.7px;
+}
+
+#home {
+    margin-left: 0px;
+}
+
+.navegation a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navegation a:hover {
+    color: #ffff;
+}
+
+main {
+    margin-top: 170px;
+    max-width: 100%;
+}
+
+.work {
+    width: 1530px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.study {
+    display: inline-block;
+    width: 380px;
+}
+
+.study img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.study a {
+    text-decoration: none;
+    color: #000;
+}
+
+.study a:hover{
+    color: #343333;
+}
+
+.study h2 {
+    padding: 35.5px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.study p {
+    font-size: 20px;
+    padding: 35px 0px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ideas {
+    display: inline-block;
+    width: 380px;
+    margin-left: 130px;
+}
+
+.ideas img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ideas a {
+    text-decoration: none;
+    color: #000;
+}
+
+.ideas a:hover{
+    color: #343333;
+}
+
+.ideas h2 {
+    padding: 35.5px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ideas p {
+    font-size: 20px;
+    padding: 35px 0px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.who {
+    display: inline-block;
+    width: 380px;
+    margin-left: 130px;
+}
+
+.who img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.who a {
+    text-decoration: none;
+    color: #000;
+}
+
+.who a:hover{
+    color: #343333;
+}
+
+.who h2 {
+    padding: 35.5px 0px 0px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.who p {
+    font-size: 20px;
+    padding: 35px 0px 0px;
+    display: inline-block;
+    text-align: center;
+}

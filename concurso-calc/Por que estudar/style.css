@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tests {
+    font-family: Open-Sans, Roboto, Montserrat;
+}
+
+header {
+    max-width: 100%;
+    background-color: #343333;
+    height: 80px;
+    align-items: center;
+}
+
+.concursos {
+    height: 80px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.concursos li {
+    vertical-align: middle;
+    display: inline-block;
+    list-style: none;
+    margin-left: 249px;
+}
+
+#espcex {
+    margin-left: 0px;
+}
+
+.militares {
+    width: 60px;
+}
+
+nav {
+    max-width: 100%;
+    background-color: #D1CECE;
+}
+
+.navegation {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+}
+
+.navegation li {
+    vertical-align: middle;
+    padding: 12px 0px;
+    display: inline-block;
+    list-style: none;
+    margin-left: 258.7px;
+}
+
+#home {
+    margin-left: 0px;
+}
+
+.navegation a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.navegation a:hover {
+    color: #ffff;
+}
